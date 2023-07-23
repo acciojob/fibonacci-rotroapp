@@ -1,5 +1,14 @@
 function fibonacci(num) {
-// your code here
+   let i=0;
+	let j=1;
+    while (num--) {
+		
+		i=j;
+    	j=j+i;
+		
+    }
+
+	return j;
 }
 
 module.exports = fibonacci;
