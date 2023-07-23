@@ -2,8 +2,10 @@ function fibonacci(num) {
    let i=0;
 	let sum=0;
 	let j=1;
-
-	}else if(num < 2)
+	if(num == 1)
+	{
+		return 0;
+	}else if(num == 2)
 	{
 		return 1;
 	}
